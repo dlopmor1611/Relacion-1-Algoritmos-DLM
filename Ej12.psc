@@ -14,7 +14,7 @@ Algoritmo Ej12
 	Leer y1, y2;
 	
 	// Calcular la distancia
-	Distancia <- raiz((x2-x1)^2 + (y2-y1)^2); // Puedes hacerlo igual con un ^(1/2)
+	Distancia <- raiz(abs(x2-x1)^2 + abs(y2-y1)^2); // Puedes hacerlo igual con un ^(1/2)
 	
 	// Mostrar la distancia
 	Escribir "La distancia entre esos dos puntos es de ", Distancia, "u";
